@@ -1,0 +1,18 @@
+.footer{
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: solid 1px gray;
+
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-links{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px
+    }
+  }
+}
